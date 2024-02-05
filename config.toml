@@ -14,8 +14,8 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Hi, I'm Nina"
       introSubtitle = "Welcome to my personal website"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
+      introPhoto = "/montroyal.jpg"
+      logo = "/icon_tab.png"
     [[languages.en.menu.main]]
         name = "About"
         url = "about"
@@ -52,8 +52,6 @@ DefaultContentLanguageInSubdir = true
   # Enable the darkmode toggle in header
   darkModeToggle = true
   
-  #Logo
-  logo = "/icon_tab.png"
   
   # Enable search in header
   enableSearch = true
