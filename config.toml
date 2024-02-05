@@ -45,10 +45,6 @@ DefaultContentLanguageInSubdir = true
         name = "Outreach"
         url = "outreach"
         weight = 6
-        
-#Allow PDF
-#theme = ["hugo-embed-pdf-shortcode", "blist"]
-enableInlineShortcodes = true
  
 [params]
   # Enable the darkmode toggle in header
