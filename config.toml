@@ -16,7 +16,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hi, I'm Nina"
       introSubtitle = "Welcome to my personal website"
       introPhoto = "/square photo.jpg"
-      logo = "/icon.png"
+      logo = "/icon.svg"
     [[languages.en.menu.main]]
         name = "About"
         url = "about"
@@ -29,7 +29,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Teaching"
-        url = "teacing"
+        url = "teaching"
         weight = 3
 
     [[languages.en.menu.main]]
