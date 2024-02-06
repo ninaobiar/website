@@ -16,7 +16,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hi, I'm Nina"
       introSubtitle = "Welcome to my personal website"
       introPhoto = "/square photo.jpg"
-      logo = "/icon.svg"
+      logo = "/icon.png"
     [[languages.en.menu.main]]
         name = "About"
         url = "about"
@@ -70,7 +70,7 @@ DefaultContentLanguageInSubdir = true
 
   # Custom copyright - optional
   copyright = "Copyright © 2024 - Nina Obiar · All rights reserved"
-  favicon = "/icon.png"
+  favicon = "/icon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
