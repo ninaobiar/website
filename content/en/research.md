@@ -14,12 +14,15 @@ Scroll down to learn more about my research interests
 
 ##
 'Useful' plants (i.e., food, medicine, materials) can be minimizied in biodiversity valuation. I investigate whether we can bridge biodiversity and ecosystem services. More specifically, I delve deeper into whether classic biodiversity metrics can be an effective surrogate for useful plant diversity.
+
 ---
+
 ## Climate change effects on Alberta bird rehabilitation
 ![BirdAdmittanceGraph](/birds.png)
 
 ##
 In collaboration with the Alberta Institute of Wildlife Conservation, I created a framework to investigate the effects of the climate crisis on Alberta avian population. The goal of the project was to predict how changing temperatures would affect rehabilitation intake. Read more [here]("https://storymaps.arcgis.com/stories/2c794eb1c53e4d03944b99c6d79efe12).
+
 ---
 ## Competition between invasive and non-invasive species
 ![Spotted Knapweed](/knapweed.png)
