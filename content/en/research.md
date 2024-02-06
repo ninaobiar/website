@@ -14,14 +14,16 @@ Scroll down to see what my research interests are
 
 ##
 'Useful' plants (i.e., food, medicine, materials) can be minimizied in biodiversity valuation. I investigate whether we can bridge biodiversity and ecosystem services. More specifically, I delve deeper into whether classic biodiversity metrics can be an effective surrogate for useful plant diversity.
-{{< css.inline >}}
+
+---
 
 ![Spotted Knapweed](/knapweed.png)
 ## Competition between invasive and non-invasive species
 
 ##
 By using the spotted knapweed as a model system, I delve deeper into whether native plants can compete with invasive species. 
-{{< css.inline >}}
+
+---
 
 ![INDG 399 Word Cloud](/WordCloud.jpg)
 ## Land-based Learning
