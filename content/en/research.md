@@ -4,7 +4,6 @@ title: Research
 date: 2023-02-05
 keywords: ["research","research-interests"]
 type: research
-toc = true
 ---
 
 (/useful-plants-2.png)
