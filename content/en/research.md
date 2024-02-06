@@ -4,6 +4,7 @@ title: Research
 date: 2023-02-05
 keywords: ["research","research-interests"]
 type: research
+thumbnail: "/Rockies.jpg"
 toc: true
 ---
 ## 
