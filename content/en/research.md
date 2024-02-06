@@ -4,7 +4,7 @@ title: Research
 date: 2023-02-05
 keywords: ["research","research-interests"]
 type: research
-toc = true
+toc: true
 ---
 ## 
 Scroll down to see what my research interests are
