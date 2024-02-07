@@ -12,6 +12,11 @@ DefaultContentLanguageInSubdir = true
     contentDir = "content/en" #English
     weight = 1
     languageName = "English"
+    [languages.en.params]
+      introTitle = "Hi, I'm Nina"
+      introSubtitle = "Welcome to my personal website"
+      introPhoto = "/Rockies.jpg"
+      logo = "/icon.png"
 
     [[languages.en.menu.main]]
         name = "About"
@@ -140,9 +145,8 @@ DefaultContentLanguageInSubdir = true
 
 
 [[menu.main]]
-  name = "Nina Obiar"
-  url = "/homepage"
-  href = _index.md
+  name = "About"
+  url = "/about"
 
 [build]
   writeStats = true
