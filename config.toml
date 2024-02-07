@@ -1,20 +1,22 @@
 baseURL = 'https://ninaobiar.github.io/'
-languageCode = 'en-us'
 title = 'Nina Obiar'
-metaDataFormat = "yaml"
-theme = ["hugo-universal-theme"]
-enableInlineShortcodes = true
+theme = ["hugo-universal-theme","hugo-embed-pdf-shortcode"]
 themesDir = "../.."
 languageCode = "en-us"
+
+#Allow for PDF to be embedded
+enableInlineShortcodes = true
+
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
+
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
 # number of words of summarized post content (default 70)
-summaryLength = 200
+summaryLength = 70
 
 # Define the number of posts per page
 paginate = 1
@@ -36,31 +38,26 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Research"
     identifier = "menu.research"
-    url        = "/en/research"
     weight     = 2
 
 [[menu.main]]
     name       = "Teaching"
     identifier = "menu.teaching"
-    url        = "/en/teaching"
     weight     = 3
 
 [[menu.main]]
     name       = "CV"
     identifier = "menu.cv"
-    url        = "/en/cv"
     weight     = 4
 
 [[menu.main]]
     name       = "Publications"
     identifier = "menu.publications"
-    url        = "/en/publications"
     weight     = 5
 
 [[menu.main]]
     name       = "Outreach"
     identifier = "menu.outreach"
-    url        = "/en/outreach"
     weight     = 6    
     
 [[menu.main]]
@@ -93,20 +90,12 @@ pluralizelisttitles = false
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/research/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
+    mainSections = ["research"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
-    # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
-
-
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
