@@ -2,7 +2,7 @@ baseURL = 'https://ninaobiar.github.io/'
 languageCode = 'en-us'
 title = 'Nina Obiar'
 metaDataFormat = "yaml"
-theme = ["hugo-embed-pdf-shortcode","blist","github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = ["hugo-embed-pdf-shortcode","blist","ananke"]
 enableInlineShortcodes = true
 
 DefaultContentLanguage = "en"
