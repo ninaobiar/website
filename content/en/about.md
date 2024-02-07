@@ -11,5 +11,9 @@ thumbnail: "/montroyal.jpg"
 ##
 I am a MSc candidate in the [Pollock Lab](https://qbiodiversity.org/). My research passions lie in the intersectionality between biodiversity and ecosystem services. In all aspects of my work I aim to uphold my identity as a Filipino immigrant as I continue to mold my research here in Tiohtià:ke/Montreal. I am grateful to have been brought up navigating the delicate balance between superstition and science, inherited from generations of farmers in my family who imparted wisdom on sensing the health of our livestock and predicting harvest yields. I hope to honor my heritage in my work for the goal of conserving global biodiversity **_and_** ecosystem Services.
 
-To learn more about my research, please feel free to view my [research interests](https://ninaobiar.github.io/en/research/). Also please drop a line if any of my work resonates with you and want to talk more.
+<!-- Image floated to the left with text wrapping around it -->
+<img src="/square photo.jpg" alt="Image Description" style="float: right; margin-left: 20px; width: 250px; height: auto;" />
+
+
+To learn more about my research, please feel free to view my [research interests](https://ninaobiar.github.io/en/research/). Also please drop a line if any of my work resonates with you and want to talk more. You can reach me on my socials down below!
 
