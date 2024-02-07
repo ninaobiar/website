@@ -1,11 +1,10 @@
 baseURL = 'https://ninaobiar.github.io/'
 title = 'Nina Obiar'
-theme = ["hugo-universal-theme","hugo-embed-pdf-shortcode"]
+theme = ["hugo-embed-pdf-shortcode", "hugo-universal-theme"]
+enableInlineShortcodes = true
 themesDir = "../.."
 languageCode = "en-us"
 
-#Allow for PDF to be embedded
-enableInlineShortcodes = true
 
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
