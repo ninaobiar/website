@@ -2,17 +2,21 @@ baseURL = 'https://ninaobiar.github.io/'
 languageCode = 'en-us'
 title = 'Nina Obiar'
 metaDataFormat = "yaml"
-theme = ["hugo-embed-pdf-shortcode","blist","ananke"]
+theme = ["hugo-embed-pdf-shortcode","blist"]
 enableInlineShortcodes = true
 
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
-    contentDir = "content/en" #English
+    contentDir = "content" #English
     weight = 1
     languageName = "English"
+
     [languages.en.params]
+      introTitle = "Hi, I'm Nina"
+      introSubtitle = "Welcome to my personal website"
+      introPhoto = "/square photo.jpg"
       logo = "/icon.png"
 
     [[languages.en.menu.main]]
