@@ -70,7 +70,7 @@ DefaultContentLanguageInSubdir = true
     "summary",
     "content",
     "link",
-    "author"
+    "author",
     "keywords"
   ]
 
