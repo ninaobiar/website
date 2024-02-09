@@ -71,6 +71,7 @@ DefaultContentLanguageInSubdir = true
     "content",
     "link",
     "author"
+    "keywords"
   ]
 
   # Custom copyright - optional
