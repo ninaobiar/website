@@ -2,7 +2,8 @@
 author: Nina Obiar
 title: Leadership & Community Involvement
 date: 2023-02-05
-keywords: ["outreach","leadership","community","community]
+keywords: ["outreach","leadership","community outreach","community"]
 type: outreach
+thumbnail: "/mountain1.jpg"
 ---
 
