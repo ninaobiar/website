@@ -40,7 +40,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Publications"
-        url = "projects"
+        url = "publications"
         weight = 5
 
     [[languages.en.menu.main]]
