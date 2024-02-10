@@ -5,6 +5,7 @@ date: 2023-02-05
 keywords: ["outreach","leadership","community outreach","community"]
 type: outreach
 thumbnail: "/Rockies.jpeg"
+toc: true
 ---
 ## Diversity in Science
 
@@ -16,7 +17,7 @@ Being a female immigrant scientist can have its challenges... but being able to 
 ## Creating community
 
 ##
-Another passion of mine is to foster an environment of curiosity and excitement in science. 
+Another passion of mine is to foster an environment of curiosity and excitement in science:
 
 ### at McGill
 

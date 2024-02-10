@@ -131,20 +131,17 @@ DefaultContentLanguageInSubdir = true
 
   [[params.homepage.social.icons]]
     website = "linkedin"
-    url = "https://linkedin.com/in/"
+    url = "https://linkedin.com/in/nina-maikaela-obiar/"
 
   [[params.homepage.social.icons]]
     website = "github"
-    url = "https://github.com/"
+    url = "https://github.com/ninaobiar"
 
 [[params.homepage.social.icons]]
     website = "email"
-    url = "https://outlook.com/"
+    url = "mailto:ninaobiar@outlook.com/"
 
 
-  [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
 
 
 [build]

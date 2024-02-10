@@ -4,6 +4,7 @@ title: Teaching Experience
 date: 2023-02-05
 keywords: ["teaching","teaching experience"]
 type: teaching
+toc: true
 ---
 
 ## Data Analysis
