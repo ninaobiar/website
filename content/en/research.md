@@ -10,7 +10,7 @@ toc: true
 Scroll down to learn more about my research interests 
 
 ## Biodiversity & Ecosystem Services
-![Top USAGE plants](/Poster_NMO_QCBS.jpg)
+![ConferencePoster](/Poster_NMO_QCBS.jpg)
 
 ##
 'Useful' plants (i.e., food, medicine, materials) can be minimizied in biodiversity valuation. I investigate whether we can bridge biodiversity and ecosystem services. More specifically, I delve deeper into whether classic biodiversity metrics can be an effective surrogate for useful plant diversity. Read more [here](https://nph-onlinelibrary-wiley-com.proxy3.library.mcgill.ca/doi/full/10.1002/ppp3.10642)
