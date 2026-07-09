@@ -3,6 +3,8 @@ title: "Free Resources"
 date: 2026-07-09
 draft: false
 description: "Here are some resources I've created that you might find useful"
+type: "resources"
+tags: ["downloads", "templates"]
 ---
 
 ## Available Downloads
