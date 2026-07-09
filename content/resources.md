@@ -10,7 +10,7 @@ tags: ["downloads", "templates"]
 ## Available Downloads
 
 ### 1. Gantt Chart MSc 
-[![Gantt Chart Preview](/images/gallery/ganttchart.png)]
+![Gantt Chart Preview](/images/gallery/ganttchart.png)
 
 [*Click here to download my custom Gantt Chart template.*](/docs/GanttChart_MSc.docx)
 
