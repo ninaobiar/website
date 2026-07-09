@@ -1,0 +1,38 @@
+{{ if .Site.Params.experience.enable | default false }}
+{{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
+<section id="teaching" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ $experience.title | default .Site.Params.experience.title | default (i18n "experience") }}</h3>
+        <div class="row justify-content-center py-5">
+            {{ range $index, $element := $experience.items | default .Site.Params.experience.items }}
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                {{ range .jobs }}
+                                <div class="float-end">
+                                    <small>{{ .date }}</small>
+                                </div>
+                                <h5 class="card-title">{{ .name }}</h5>
+                                {{ if $element.companyUrl }}
+                                <a href="{{ $element.companyUrl }}" target="_blank">
+                                    <h6>{{ $element.company }}</h6>
+                                </a>
+                                {{ else }}
+                                {{ $element.company }}
+                                {{ end }}
+                                <div class="py-1 education-content">
+                                    {{ .content | markdownify}}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

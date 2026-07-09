@@ -1,0 +1,353 @@
+baseURL: "https://ninaobiar.github.io"
+languageCode: "en-us"
+title: "Nina Obiar"
+theme: hugo-profile
+
+# Multilingual configuration
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: resources
+          name: Free Resources
+          title: Free Resources
+          url: /resources
+          weight: 1
+        - identifier: gallery
+          name: Gallery
+          title: Image gallery
+          url: /gallery
+          weight: 2
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Nina Obiar"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/icon.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Nina Obiar" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Nina, "
+    subtitle: "I am a data ecologist and science communicator!"
+    content: " My expertise lies in data analysis, visualization, and storytelling for government, academia, and non-profit organizations."
+    image: /images/hero.png
+    bottomImage:
+      enable: true
+    roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "/docs/NinaObiar_CV.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/ninaobiar/ninaobiar.github.io
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/nina-maikaela-obiar/
+
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    roundImage: true
+    content: |-
+      I am a data ecologist and science communicator with a passion for data analysis and visualization. 
+      I have a background in ecology and statistics, and I have a strong interest in the intersection of data science and environmental research. 
+      I have worked with Parks Canada, the Mushkegowuk Council, and McGill University to research and communicate the impacts of climate change on biodiversity and ecosystem services.
+
+      In all aspects of my work I aim to uphold my identity as a Filipino immigrant as I continue to mold my research here in Tiohtià:ke/Montreal. I am grateful to have been brought up navigating the delicate balance between superstition and science, inherited from generations of farmers in my family who imparted wisdom on sensing the health of our livestock and predicting harvest yields. 
+
+
+    skills:
+      enable: true
+      title: "Here are a few of the skills I've been working on recently:"
+      items:
+        - "R"
+        - "PowerBI"
+        - "MySQL"
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        
+# projects
+  projects:
+    enable: true
+    title: "Projects"
+    items:
+      - title: "Canada's Biodiversity and Ecosystem Services"
+        content: " 'Useful' plants (i.e., food, medicine, materials) can be minimizied in biodiversity valuation. I investigate whether we can bridge biodiversity and ecosystem services. More specifically, I delve deeper into whether classic biodiversity metrics can be an effective surrogate for useful plant diversity"
+        image: /images/projects/ConferencePoster.png
+        badges:
+          - "R"
+          - "Species Distribution Modelling"
+          - "Protected Areas"
+          - "GBIF"
+        links:
+          - icon: fab fa-book-bookmark
+            url: https://nph-onlinelibrary-wiley-com.proxy3.library.mcgill.ca/doi/full/10.1002/ppp3.10642
+
+      - title: "Species Distribution Modelling for the Hudson Bay Lowlands"
+        content: "Developed species distribution models for the Hudson Bay - James Bay Lowland (HJBL) area with Parks Canada and the Canadian Museum of Nature to evaluate biodiversity patterns and support federal conservation and land-use policy."
+        image: /images/projects/20250821_111204.jpg
+        badges:
+          - "R"
+          - "Species Distribution Modelling"
+          - "Policy"
+        links:
+          - icon: fab fa-bookmark
+            url: https://www.youtube.com/watch?v=Ut_y5nNucL8&list=PLOe6XX2wBaiZiQ7Aed32gBCR1pqDj451f&index=2
+       
+      - title: "Climate Change Effects on Albertan Avian Populations"
+        content: "Analyzed effects of the climate crisis on Alberta's avian population using Maxent, ANOVA, and linear regression, and projected future populations of Mallard, Black-billed Magpie, and American Robin using GLMs."
+        image: /images/projects/NorthernFlickerCareAIWC2022.jpg
+        badges:
+          - "R"
+          - "GLM"
+          - "Maxent"
+        links:
+          - icon: fab fa-bookmark
+            url: https://www.aiwc.ca/blog/making-a-positive-impact-human-wildlife-co-existence/
+      - title: "Conserving At-Risk Wildflowers from Invasive Species"
+        content: "Undergraduate thesis investigating competition between at-risk and invasive plant species using species distribution modelling, focused on the COSEWIC-listed Dwarf Hesperochiron in British Columbia."
+        image: /images/projects/knapweed.jpg
+        badges:
+          - "R"
+          - "Conservation"
+
+  # Teaching
+  experience:
+    enable: true
+    title: "Teaching"
+    items:
+      - company: "McGill University"
+        jobs: 
+          - name: Teaching Assistant, Methods in Biology 
+            date: "Sep 2023 - Dec 2024"
+            content: |
+             Facilitated lab sessions for first-year undergraduates, providing hands-on instruction in data analysis and statistical methods. 
+             
+             Collaborated with instructors to develop lab materials and assessments.
+      - company: "Taylor Institute for Teaching and Learning"
+        jobs:
+          - name: "Course-Based Research Experiences Research Coach"
+            date: "Jan 2022 - Apr 2022"
+            content: |
+             Organized contracts between students, instructors, and project partners. 
+             
+             Helped plan an interdisciplinary research symposium and mentored students through their research projects.
+      - company: "University of Calgary"
+        jobs:
+          - name: "Research Coach"
+            date: "Sep 2021 - Dec 2021"
+            content: Facilitated land-based learning experiences for students guided by an Elder, evaluated student work, and supported project planning and troubleshooting.
+  
+  # Publications
+  education:
+    enable: true
+    title: "Publications"
+    index: false
+    items:
+      - title: "Bridging biodiversity and ecosystem services through Canada's useful plants"
+        school:
+          name: "Plants, People, Planet"
+          url: "https://doi.org/10.1002/ppp3.10642"
+        date: "2025"
+        content: "Obiar, N., Eckert, I., Baker, J., Moerman, D., Pollock, L.J."
+      - title: "Comparing the ability of natural history collections and community science observations to estimate plant niches"
+        school:
+          name: "Botany"
+          url: "https://doi.org/10.1139/cjb-2025-0010"
+        date: "2025"
+        content: "Eckert, I., Obiar, N., Pollock, L.J."
+      - title: "Towards Reconciliation: Philanthropy, animal-human relationships, and community-engaged learning"
+        school:
+          name: "PhiLab"
+          url: "https://philab.uqam.ca/en/towards-reconciliation-philanthropy-animal-human-relationships-and-community-engaged-learning-2/"
+        date: "2022"
+        content: "Kincaid, A., Livingstone, S., Li, G., Adeladan, H., Obiar, N., Kumar, S., Tirmizi, S., Anderson, M., Hunt, I., Spence, D."
+      - title: "Educational Reconciliation: Implementing Traditional Land-Based Learning in Canadian Universities"
+        school:
+          name: "Canadian Journal for Undergraduate Research"
+          url: " https://doi.org/10.14288/cjur.v7i2.196788"
+        date: "2022"
+        content: "Obiar, N., Morales, R.M.U."
+
+# Outreach
+  achievements:
+    enable: true
+    title: "Outreach"
+    items:
+      - title: "Student Representative, Inclusion and Diversity Committee"
+        content: "My passion for celebrating diversity and fostering inclusivity is a driving force in how I approach science. As a student representative of the Inclusion and Diversity Commity within the Canadian Botanical Association , I am constantly working to advocate for opportunities and events that nurture an inclusive botanical community. 
+          Being a female immigrant scientist can have its challenges… but being able to see positive change our institutions - albeit at a slower pace than one would hope - gives me hope! As always, happy to talk more about decolonizing, dismantling, and disrupting traditional norms in Western Science."
+      - title: "Science Ambassador"
+        content: As a Science Ambassador at the University of Calgary , I had the privilege of fostering a sense of wonder and curiosity within our scientific community. Through dynamic social media engagement and lively Faculty of Science events, I helped cultivate an environment where students and faculty alike are inspired to explore the wonders of science and pursue their passions with enthusiasm.
+      - title: "Seminar Representative"
+        content: "I organized weekly seminars hosting scientists in ecology and evolution, and research talks for graduate students at McGill University."
+
+  #Contact
+  contact:
+    enable: true
+    content: "Please drop a line if any of my work resonates with you and want to talk more. You can reach me on my socials!"
+    btnName: Mail me
+    btnLink: mailto:ninaobiar@outlook.com
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
